@@ -1,0 +1,6 @@
+3. Cat pokemons.txt
+4. grep Garbodor pokemons.txt
+5. grep -B 2 Pikachu pokemons.txt
+6. $ grep -A 3 Pikachu pokemons.txt
+7. head -n 152 pokemons.txt
+8. tail -n 101 pokemons.txt
