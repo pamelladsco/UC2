@@ -39,7 +39,31 @@ console.log("Você recebe", seuSalario, "t", "Você trabalha", horasTrabalha, "p
 afim de saber qual o valor da hora trabalhada*/
 
 
-let nome 
+/*let nome //criacao
 let idade 
 console.log(typeof nome)
 console.log(typeof idade)
+Achei que iria imprimir string e number, mas foi impresso undefined pois não foi dado a variável seu valor e especificação"
+nome = prompt ("Qual é o seu nome?")//usando
+idade = prompt ("Qual é a sua idade?")
+console.log(typeof nome)
+console.log(typeof idade)
+console.log("Olá", nome, "você tem", idade, "anos")*/
+
+
+
+
+
+let blusaBranca
+let calcaPreta 
+let sapatoPreto 
+
+blusaBranca = prompt("Você está usando blusa branca hoje?")
+calcaPreta = prompt("Você está usando calça preta hoje?")
+sapatoPreto = prompt("Você está usando sapato preto hoje?")
+
+console.log("Você está usando blusa branca hoje?", blusaBranca) 
+console.log("Você está usando calça preta hoje?", calcaPreta)
+console.log("Você está usando sapato preto hoje?", sapatoPreto)
+
+
