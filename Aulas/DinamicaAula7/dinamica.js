@@ -1,6 +1,6 @@
 
 
-let ouroTotal = 75000
+/* let ouroTotal = 75000
 let membrosTripulao = 9
 let recompensaBaseLuffy = 3000000000
 let aumentoRecompensa = 150000000
@@ -36,4 +36,5 @@ let batalhaFacil = (combateJusto==combateRapido)
 
 console.log("A força tripulação é maior ou igual a força inimigo?", podeVencer)
 console.log("A chance Vitória é menor que o limite segurança?", riscoAlto)
-console.log("O combate justo é igual ao combaterápido?", batalhaFacil)
+console.log("O combate justo é igual ao combaterápido?", batalhaFacil) */
+
