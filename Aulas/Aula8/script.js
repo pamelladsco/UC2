@@ -1,4 +1,4 @@
-const interruptor1 = true
+/*const interruptor1 = true
 const interruptor2 = true
 
 const resultado = interruptor1 && interruptor2
@@ -55,7 +55,40 @@ let primeiroNumero = prompt("Digite um número")
 let segundoNumero = prompt("Digite outronúmero")
 
 const soma = primeiroNumero + segundoNumero
-console.log(soma)// para aparecer o valor da soma precisamos transformar as variáveis em Number
+console.log(soma)// para aparecer o valor da soma precisamos transformar as variáveis em Number */
+
+
+/*let idade = prompt("Qual a sua idade?")
+let idadeAmigo = prompt("Qual o nome da sua melhor amiga?")
+let resultado = 22 == 25
+console.log("Sua idade é maior ou menor do que da sua melhor amiga?", resultado)
+console.log("A diferença de idade é:", idadeAmigo-idade)*/
+
+
+/*let numero1 = prompt("Insira um número par:")
+let restoDaDivisao = numero1 % 2
+console.log("Esse é o resto da divisão:", restoDaDivisao)
+// se o usuário inserir um número impar, o resultado será maior que 0. Sendo par, sempre será 0.*/
+
+/*let idadeAnos = prompt("Qual sua idade em anos?")
+console.log(idadeAnos * 12)//idade meses
+console.log(idadeAnos * 365)//idade dias
+console.log(idadeAnos * 24)//idade horas
+//utilizado operadores aritiméticos para realizar os cálculos, lembrar sempre de que para números usaremos funções.*/
+
+let primeiroNumero = prompt("Digite o primeiro número:")
+let segundoNumero = prompt("Digite o segundo número:")
+console.log(primeiroNumero, segundoNumero)
+let restoDaDivisao = primeiroNumero % segundoNumero
+let restoDaDivisao1 = segundoNumero % primeiroNumero
+
+console.log(primeiroNumero>segundoNumero)
+console.log(primeiroNumero==segundoNumero)
+console.log(restoDaDivisao==0, true)
+console.log(restoDaDivisao1==1, false)
+
+
+
 
 
 
