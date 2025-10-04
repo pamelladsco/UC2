@@ -76,22 +76,44 @@ console.log(idadeAnos * 365)//idade dias
 console.log(idadeAnos * 24)//idade horas
 //utilizado operadores aritiméticos para realizar os cálculos, lembrar sempre de que para números usaremos funções.*/
 
-let primeiroNumero = prompt("Digite o primeiro número:")
+
+/*let primeiroNumero = prompt("Digite o primeiro número:")
 let segundoNumero = prompt("Digite o segundo número:")
-console.log(primeiroNumero, segundoNumero)
-let restoDaDivisao = primeiroNumero % segundoNumero
-let restoDaDivisao1 = segundoNumero % primeiroNumero
+let primeiroNumeroN = Number(primeiroNumero)
+let segundoNumeroN = Number(segundoNumero)
+let restoDaDivisao = primeiroNumeroN % segundoNumeroN
+let restoDaDivisao1 = segundoNumeroN % primeiroNumeroN
+console.log(primeiroNumeroN, segundoNumeroN)
 
-console.log(primeiroNumero>segundoNumero)
-console.log(primeiroNumero==segundoNumero)
-console.log(restoDaDivisao==0, true)
-console.log(restoDaDivisao1==1, false)
-
-
-
-
+console.log("O primeiro número é maior que o segundo?", primeiroNumeroN>segundoNumeroN)
+console.log("O primeiro número é igual ao segundo?", primeiroNumero==segundoNumero)
+console.log("O primeiro número é divisível pelo segundo número?", restoDaDivisao>=0)
+console.log("O segundo número é divísivel pelo primeiro número?", restoDaDivisao1>=0)*/
 
 
+
+// Desafio 
+/*let fahrenheit = 77
+let fahrenheitKelvin = (fahrenheit - 32) * (5/9) + 273.15
+console.log("77ºF em Kelvin é:", fahrenheitKelvin)
+
+let celsius = 80
+let celsiusFahrenheit = (celsius)*(9/2)+32
+console.log("80º em Fahrenheit é:", celsiusFahrenheit) 
+
+let grausCelsius = 30
+let celsiusFahrenheit1 = (grausCelsius)*(9/2)+32
+let celsiusKelvin = (grausCelsius - 32) * (5/9) 
+console.log("30C em Fahrenheit é:", celsiusFahrenheit)
+console.log("30C em Kelvin é:", celsiusKelvin)*/
+
+
+let grausCelsius = prompt("Insira a temperatura em Celsius:")
+let grausCelsius1 = Number(grausCelsius)
+let celsiusFahrenheit1 = (grausCelsius1)*(9/2)+32
+let celsiusKelvin = (grausCelsius1 - 32) * (5/9) 
+console.log("30C em Fahrenheit é:", celsiusFahrenheit1)
+console.log("30C em Kelvin é:", celsiusKelvin)
 
 
 
