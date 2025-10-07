@@ -41,7 +41,7 @@ const boll2 = false
 const boll3 = !boll2 
 
 let resultado = boll1 && boll2 // aqui é o resultado "a"
-console.log("a.", resultado) // aqui irá imprimir true 
+console.log("a.", resultado) // aqui irá imprimir false
 
 resultado = bool1 && bool2 && bool3 // aqui queremos saber o resultado "b"
 console.log("b.", resultado) // aqui irá imprimir false 
@@ -60,20 +60,20 @@ console.log(soma)// para aparecer o valor da soma precisamos transformar as vari
 
 /*let idade = prompt("Qual a sua idade?")
 let idadeAmigo = prompt("Qual o nome da sua melhor amiga?")
-let resultado = 22 == 25
+let resultado = idade>idadeAmigo
 console.log("Sua idade é maior ou menor do que da sua melhor amiga?", resultado)
 console.log("A diferença de idade é:", idadeAmigo-idade)*/
 
 
-/*let numero1 = prompt("Insira um número par:")
+/*let numero1 = Number(prompt("Insira um número par:"))
 let restoDaDivisao = numero1 % 2
 console.log("Esse é o resto da divisão:", restoDaDivisao)
 // se o usuário inserir um número impar, o resultado será maior que 0. Sendo par, sempre será 0.*/
 
-/*let idadeAnos = prompt("Qual sua idade em anos?")
-console.log(idadeAnos * 12)//idade meses
-console.log(idadeAnos * 365)//idade dias
-console.log(idadeAnos * 24)//idade horas
+/*let idadeAnos = Number(prompt("Qual sua idade em anos?"))
+console.log("Sua idade em meses é:", idadeAnos * 12)//idade meses
+console.log("Sua idade em dias é:", idadeAnos * 365)//idade dias
+console.log("Sua idade em horas é:", idadeAnos * 24)//idade horas
 //utilizado operadores aritiméticos para realizar os cálculos, lembrar sempre de que para números usaremos funções.*/
 
 
@@ -86,7 +86,7 @@ let restoDaDivisao1 = segundoNumeroN % primeiroNumeroN
 console.log(primeiroNumeroN, segundoNumeroN)
 
 console.log("O primeiro número é maior que o segundo?", primeiroNumeroN>segundoNumeroN)
-console.log("O primeiro número é igual ao segundo?", primeiroNumero==segundoNumero)
+console.log("O primeiro número é igual ao segundo?", primeiroNumeroN===segundoNumeroN)
 console.log("O primeiro número é divisível pelo segundo número?", restoDaDivisao>=0)
 console.log("O segundo número é divísivel pelo primeiro número?", restoDaDivisao1>=0)*/
 
