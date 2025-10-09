@@ -108,17 +108,57 @@ let array
 console.log('a.', array)// Irá imprimir que a array é indefinida
 
 array = null
-console.log('b.', array)// Irá imprimir que a array não tem valor
+console.log('b.', array)// Irá imprimir que a array tem valor nulo
 
 array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 console.log('c.', array.length)//Aqui adicionamos valor na variável e irá imprimir o tamanho da array (11)
 
 let i = 0
-console.log('d.', array[i])//Aqui irá imprimir a array e o número correspondente indíce i, que é 3.
+console.log('d.', array[i])//Aqui irá imprimir a array e o número correspondente ao indíce i, que é 3.
 
 array[i+1] = 19
 console.log('e.', array)//Irá imprimir a nova array, substituindo o 4 por 19.
 
 const valor = array[i+6]
 console.log('f.', valor)//Vai imprimir 9 
+
+const frase = prompt("Digite uma frase")
+console.log(frase.toUpperCase().replaceAll('A', 'I'), frase.length)
+//será impresso a frase toda em maiúsculo, com as letras A trocadas pelas I, e também o tamanho da frase.
+//SUBI NUM ONIBUS EM MIRROCOS (27 CARACTERES)
+
+const nomeUsuario = prompt("Qual seu nome?")
+const emailUsuario = prompt("Qual seu email?")
+console.log("O e-mail", emailUsuario, "foi cadastrado com sucesso, seja bem vindo(a)", nomeUsuario)
+
+const comidasFavoritas = ["xis", "Batata frita", "Strogonoff", "Arroz com moranga", "Açai"]
+console.log(comidasFavoritas)
+console.log("Essas são minhas comidas favoritas:", comidasFavoritas[0])
+console.log("Essas são minhas comidas favoritas:", comidasFavoritas[1])
+console.log("Essas são minhas comidas favoritas:", comidasFavoritas[2])
+console.log("Essas são minhas comidas favoritas:", comidasFavoritas[3])
+console.log("Essas são minhas comidas favoritas:", comidasFavoritas[4])
+
+const comidaUsuario = prompt("Qual sua comida favorita?")
+comidasFavoritas[1] = comidaUsuario
+console.log(comidasFavoritas)
+
+const listaDeTarefas = []
+const tarefasUsuario1 = prompt("Digite a primeira tarefa:")
+const tarefasUsuario2 = prompt("Digite a segunda tarefa:")
+const tarefasUsuario3 = prompt("Digite a terceira tarefa:")
+const novaListaDeTarefas = listaDeTarefas.push(tarefasUsuario1, tarefasUsuario2, tarefasUsuario3)
+console.log(listaDeTarefas)
+
+//Desafio 
+const fraseUsuario1 = prompt("Digite sua frase:")
+const arrayFrase = fraseUsuario1.split(" ")
+console.log(arrayFrase)
+
+
+
+
+
+
+
 
