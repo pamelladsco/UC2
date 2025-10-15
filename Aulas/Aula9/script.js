@@ -1,5 +1,5 @@
-const nome = " Pamella dos Santos Carraro de Oliveira "
-const idade = 27
+//const nome = " Pamella dos Santos Carraro de Oliveira "
+//const idade = 27
 
 /*//Aspas duplas
 const frase1 = "O meu nome é " + nome + " e minha idade é " + idade + " anos "
@@ -65,7 +65,7 @@ const listaDeCompras = ["Abacate", "Banana", "Tomate"]
 
 console.log(listaDeCompras[1])*/
 
-//Exercício para ver o item referente ao Indice 
+/*//Exercício para ver o item referente ao Indice 
 const listaDeRaças = ["Linguicinha", "Chow-Chow", "Fila", "SRD", "Sharpei"]
 const numeroUsuário = Number(prompt("Insira um número de 0 a 4"))
 console.log("A raça correspondente ao número é", listaDeRaças[numeroUsuário])// SDR vai retornar 3 pois o indíce incia em 0.
@@ -141,7 +141,7 @@ console.log("Essas são minhas comidas favoritas:", comidasFavoritas[4])
 
 const comidaUsuario = prompt("Qual sua comida favorita?")
 comidasFavoritas[1] = comidaUsuario
-console.log(comidasFavoritas)
+console.log(comidasFavoritas)*/
 
 const listaDeTarefas = []
 const tarefasUsuario1 = prompt("Digite a primeira tarefa:")
@@ -149,11 +149,14 @@ const tarefasUsuario2 = prompt("Digite a segunda tarefa:")
 const tarefasUsuario3 = prompt("Digite a terceira tarefa:")
 const novaListaDeTarefas = listaDeTarefas.push(tarefasUsuario1, tarefasUsuario2, tarefasUsuario3)
 console.log(listaDeTarefas)
+const tarefaRealizada = Number(prompt("Digite o índice da tarefa que você realizou:"))
+listaDeTarefas.splice(tarefaRealizada,1)
+console.log(listaDeTarefas)
 
 //Desafio 
-const fraseUsuario1 = prompt("Digite sua frase:")
-const arrayFrase = fraseUsuario1.split(" ")
-console.log(arrayFrase)
+//const fraseUsuario1 = prompt("Digite sua frase:")
+//const arrayFrase = fraseUsuario1.split(" ")
+//console.log(arrayFrase)
 
 
 
