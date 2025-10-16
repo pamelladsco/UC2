@@ -90,5 +90,6 @@ switch(pokemon){
          break
      default:
         console.log("Pokemon não encontrado")
+        
 
 }
