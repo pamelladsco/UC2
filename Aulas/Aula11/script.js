@@ -78,9 +78,9 @@ switch(fruta){
         break;                    
 }
 console.log("O preço da fruta", fruta, "é", "R$", preco)
-// É para descobrir o preço das frutas
-//"O preço da fruta maça é R$ 2.25"
-//"O preço da fruta pera é R$ 5"
+// É para exibir a fruta escolhida e descobrir o preço das frutas
+//"Daria como default pois no exercício pede que coloque a crase junto a string "maça", e default é 5, então a mensagem impressa seria "O preço da maça é 5"
+//"O preço da fruta pera é R$ 5, pois vai direto para o default quando não há o break"
 
 //3. Exercício mensagem secreta
 const numero = Number(prompt("Digite o primeiro número:"))
@@ -89,9 +89,11 @@ if(numero>0){
 let mensagem = "Essa mensagem é secreta!!"
 }
 console.log(mensagem)
+
 // a. A primeira linha está pedindo para o usuário inserir um número 
 // b. A mensagem será "Esse número passou no teste" e se for -10, não irá aparecer nada. 
-// c. A variável mensagem irá dar erro pois foi feita dentro do escopo e não declarada antes.
+// c. Sim, a variável foi definida dentro do if, quando ele fechar a variável não existirá mais. 
+
 //4. 
 let idade = Number(prompt("Digite sua idade:"))
 
@@ -141,20 +143,15 @@ switch(turno){
     case "n":
         console.log("Boa noite")
         break
-    default:        
-        console.log("Turno não encontrado")
-}   */
+     default
+     ("Turno não encontrado")
+        */
 
 //7. 
 let generoFilme = prompt("Qual o gênero do filme?")
 let precoIngresso = Number(prompt("Digite qual o preço do ingresso:"))
-let generoFilme1 = 'fantasia'
-let precoIngresso1 = 15
 
-
-let vaiAssistir = generoFilme1&&precoIngresso1
-
-if(vaiAssistir){
+if(generoFilme==="fantasia"&&precoIngresso<15){
     console.log("Bom filme")
 }
 else 
