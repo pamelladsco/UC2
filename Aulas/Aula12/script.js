@@ -18,13 +18,13 @@ while(estomago < 100){
 
 
 /*//while 
-let numero
-let soma
-while(numero!==0){
-    numero = Number(prompt("Digite um número"))
-    soma += numero
+let numero // variável que irá armazenar os números do usuário 
+let soma // variável que iremos utilizar para a soma 
+while(numero!==0){ // enquanto os números forem diferentes de zero, continuar executando a ação
+    numero = Number(prompt("Digite um número")) // ação 
+    soma += numero // soma "recebe" soma + números(que foram inseridos no prompt pelo usuário)
 }
-console.log(`O resultado é: ${soma}`)*/
+console.log(`O resultado é: ${soma}`)*/ //resultado 
 
 
 //do 
@@ -34,7 +34,7 @@ do{
     C++
 }while(C <= 6)
 
-
+// For 
 for(let i = 0 ; i<=9 ; i++){
     console.log("O valor de i é:", i)
 }*/
@@ -46,10 +46,20 @@ for(let i=0 ; i<6 ; i++){
 
 
 let array = [11, 15, 18, 14, 12, 13]
-let maiorNumero = 0
-for(let i=0 ; i<6; i++){
+let maiorNumero = 0 
+for(let i=0 ; i<6; i++){// i++ = i + 1
     if(array[i] > maiorNumero){
         maiorNumero = array[i]
     }
 } console.log("O maior número é:", maiorNumero)
-    
+
+
+ // Exercício 2
+ 
+ let meuArray = [11, 15, 18, 14, 12, 13]
+ let somaPares = 0
+ for(let i = 0 ; i < 5 ; i++)
+ if(meuArray[i] % 2 === 0){
+    somaPares += meuArray[i]
+ }
+console.log("A soma dos números pares é", somaPares)
