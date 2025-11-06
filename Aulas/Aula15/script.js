@@ -55,7 +55,7 @@ imprimeVariavel()
 
 //Aqui não será impressa a variável b pois ela foi criada no escopo LOCAL. 
 console.log("A variável a:", a)
-console.log("A variável b:", b)*/
+console.log("A variável b:", b)
 
 // Retorno 
 function calculaArea(altura, largura){
@@ -73,3 +73,43 @@ return somaNumeros
 }
 let resultadoNumeros = imprimirNumeros(5, 7)
 console.log(resultadoNumeros)
+
+// Exercício Retorno 2
+let arrayNumeros = [7, 77, 777, 7777]
+function divisaoArray(array){
+    let novoArray = []
+    novoArray.push(array[0] / 2)
+    novoArray.push(array[array.length- 1] / 2)
+    return novoArray
+}
+console.log(divisaoArray(arrayNumeros)) 
+
+// Exercício Expressão de Função 
+const imprimirNumeros = function(numero1, numero2){
+    let somaNumeros = numero1 + numero2
+    return somaNumeros
+    }
+    let resultadoNumeros = imprimirNumeros(5, 7)
+    console.log(resultadoNumeros) 
+
+// Exercício Arrow Function
+const oDobro = () => {
+    let resultadoDobro = 5 * 2
+    console.log("O dobro será:", resultadoDobro)
+}
+oDobro() */
+
+// Exercício Monstro
+let determinaMonstro = (temPeleGelada, transformaComLuaCheia, brilhaAoSol, temSedeDeSangue) => {
+    if(temPeleGelada && temSedeDeSangue || brilhaAoSol){
+        return "Você é um vampiro"
+    }
+    else if (transformaComLuaCheia) {
+    return "Você é um lobisomen"
+    }
+    else{
+    return "Você é um humano"
+    } 
+}
+console.log(determinaMonstro(true, false, false, true))
+determinaMonstro()
