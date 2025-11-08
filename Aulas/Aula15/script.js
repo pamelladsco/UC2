@@ -97,11 +97,11 @@ const oDobro = () => {
     let resultadoDobro = 5 * 2
     console.log("O dobro será:", resultadoDobro)
 }
-oDobro() */
+oDobro() 
 
 // Exercício Monstro
 let determinaMonstro = (temPeleGelada, transformaComLuaCheia, brilhaAoSol, temSedeDeSangue) => {
-    if(temPeleGelada && temSedeDeSangue || brilhaAoSol){
+    if(temPeleGelada && temSedeDeSangue && brilhaAoSol){
         return "Você é um vampiro"
     }
     else if (transformaComLuaCheia) {
@@ -111,5 +111,42 @@ let determinaMonstro = (temPeleGelada, transformaComLuaCheia, brilhaAoSol, temSe
     return "Você é um humano"
     } 
 }
-console.log(determinaMonstro(true, false, false, true))
-determinaMonstro()
+let temPeleGelada = true
+let transformaComLuaCheia = false
+let brilhaAoSol = true
+let temSedeDeSangue = true
+console.log(determinaMonstro(temPeleGelada, transformaComLuaCheia, brilhaAoSol, temSedeDeSangue))
+
+// Exercício de fixação 1
+function minhaFuncao(variavel) {
+    return variavel * 5
+}
+console.log(minhaFuncao(2)) // Aqui o número 2 é o parâmetro "variável", e o return será o resultado da multiplicação 2*5, que é 10
+console.log(minhaFuncao(10)) // Aqui o número 10 é o parâmetro "variável", e o return será o resultado da multiplicação 10*5, que é 50 
+// Se tirássemos o console.log, não iria exibir o resultado. 
+
+// Exercício de fixação 2
+let textoDoUsuario = prompt("Insira um texto") // Entrada da informação do usuário
+    const outraFuncao = function(texto) { // Função com parâmetro "texto"
+        return texto.toLowerCase().includes("cenoura") // retornar o parâmetro todo em minísculo e verificar se a palavra "cenoura" está no prompt que o usuário digitou. 
+    }
+    const resposta = outraFuncao(textoDoUsuario) // variável para receber o novo texto após utilizarmos tolowerCase e Includes. 
+    console.log(resposta) // Aqui irá imprimir o texto do prompt com as funções que utilizamos para o texto.
+    // Eu gosto de cenoura será true pois possui a palavra "cenoura".
+    // CENOURA é bom pra vista será true, pois utilizamos toLowerCase
+    // Cenouras crescem na terra será true, pois o includes reconhece a palavra mesmo estando no plural. 
+
+    // Exercício de fixação 3 
+    function mensagem(){
+        return console.log("Eu sou Pamella, tenho 27 anos, moro em Esteio e sou estudante")    
+    }
+    mensagem()*/
+
+    // Exercício de fixação 4 
+    // A.
+    function numeros(num1, num2){
+        const soma = num1 + num2
+        return console.log(soma) 
+    }
+    numeros(7,7)
+
