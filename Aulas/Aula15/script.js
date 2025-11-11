@@ -138,15 +138,36 @@ let textoDoUsuario = prompt("Insira um texto") // Entrada da informação do usu
 
     // Exercício de fixação 3 
     function mensagem(){
-        return console.log("Eu sou Pamella, tenho 27 anos, moro em Esteio e sou estudante")    
+    console.log("Eu sou Pamella, tenho 27 anos, moro em Esteio e sou estudante")    
     }
-    mensagem()*/
+    mensagem()
 
     // Exercício de fixação 4 
     // A.
     function numeros(num1, num2){
-        const soma = num1 + num2
-        return console.log(soma) 
+        return num1 + num2 
     }
-    numeros(7,7)
+    console.log(numeros(7,7))
+    
+    // B. 
+    function maior (num1, num2){
+        return num1 >= num2
+}
+console.log(maior(7,7)) 
+
+  // C. 
+  function par (num1, num2){
+    return num1 % num2
+} 
+console.log(par(7,7)) */
+
+// Exercício de fixação 5;
+const nume1 = Number(prompt("Digite o primeiro número:"))
+const nume2 = Number(prompt("Digite o segundo número:"))
+
+function soma(nume1, nume2){
+    return nume1 + nume2
+}
+console.log("Números inseridos:", nume1, nume2)
+console.log("soma:", soma(nume1, nume2))
 
