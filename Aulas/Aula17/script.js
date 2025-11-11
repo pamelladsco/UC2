@@ -1,4 +1,4 @@
-// Exemplo objetos 
+/*// Exemplo objetos 
 const professor = {
     nome : "Lucas",
     idade : 33,
@@ -42,15 +42,21 @@ const professores = [
 {nome : "Valter", modulo: 1}
 ]
 console.log("O professor:", professores[1].nome, "deu o módulo:", professores[1].modulo) // Importante lembrar que o índice sempre começa em 0 nas arrays, então ao colocar índice 1, sera a "Dal", que está na segunda posição. 
-
+*/
 // Exercício objetos 
-const filme2 = [
- {personagem1 : "Victor Van Dort", elenco: "Jhonny Depp"},
- {personagem2 : "Corpse Bride", elenco: "Helena Bonhan"},
- {personagem3 : "Victória Everglot", elenco: "Emily Watson"}
-]
-console.log("O personagem é:", filme2[0].personagem1, "e o ator é:", filme2[0].elenco)
-console.log("O personagem é:", filme2[1].personagem1, "e a atriz é:", filme2[1].elenco)
-console.log("O personagem é:", filme2[2].personagem3, "e a atriz é:", filme2[2].elenco)
+const filme = {
+    direcao: "Tim Burton",
+    nome: "A noiva cadáver",
+    lançamento: 2005,
+    elenco: ["Jhonny Depp", "Helena Bonhan", "Emily Watson"],
+    assistiu: "Assisti",
+    personagens: ["Victor Van Dort", "Corpse Bride", "Victoria Everglot"]
+ }
+console.log("O personagem é:", filme.personagens[0], "e o ator é:", filme.elenco[0])
+console.log("O personagem é:", filme.personagens[1], "e a atriz é:", filme.elenco[1])
+console.log("O personagem é:", filme.personagens[2], "e a atriz é:", filme.elenco[2])
 
+filme.elenco[0] = "Xuxa"
+console.log("O elenco do filme é:", filme.elenco)
+console.log(filme.direcao, filme.nome, filme.lançamento, filme.elenco, filme.assistiu, filme.personagens)
 
