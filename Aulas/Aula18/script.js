@@ -92,7 +92,7 @@ const tartaruga = {...gato, nome: gato.nome.replaceAll("a", "o")}
 console.log(cachorro) // Vai ser impresso o objeto cachorro com seus respectivos valores.
 console.log(gato) // Vai ser impresso o novo objeto copiado, com as informações que foram alteradas no objeto cachorro, que irá mudar o nome para Juba. 
 console.log(tartaruga)// Vai ser impresso o novo objeto copiado, onde irá trocar as letras "A" do nome Juba. Ficará "Jubo"
-// A sintaxe dos 3 pontos copia as informações do objeto que estamos mencionando, sem alterar os valores. (caso desejassemos alterar os valores, poderíamos fazer manualmente). */
+// A sintaxe dos 3 pontos copia as informações do objeto que estamos mencionando, sem alterar os valores. (caso desejassemos alterar os valores, poderíamos fazer manualmente). 
 
 // Exercício de fixação 3
 function minhaFuncao(objeto, propriedade){
@@ -115,12 +115,6 @@ function euNovo(objeto){
     console.log("Eu sou", objeto.nome, ",", "mas pode me chamar de", objeto.apelidos[0],",",objeto.apelidos[1], "e", objeto.apelidos[2])
 }
 euNovo(eu)// A partir do momento que passamos o objeto para para o parâmetro, podemos utilizar o nome do parâmetro para se referir o objeto. Esse o objetivo principal da função nesse caso! 
-//no console.log, como os apelidos são uma array, precisamos buscar o índice de cada um dos valores, para que sejam impressos os valores separadamente. Nesse caso poderíamos pegar só um dos apelidos se quisessemos. 
+//no console.log, como os apelidos são uma array, precisamos buscar o índice de cada um dos valores, para que sejam impressos os valores separadamente. Nesse caso poderíamos pegar só um dos apelidos se quisessemos. */
 
-//Exercício de fixação 5
-const novoEu = {
-    ...eu{apelidos["Pampis", "Pamis", "Pâ"]}
-    console.log("Eu sou", objeto.nome, ",", "mas pode me chamar de", objeto.apelidos[0],",",objeto.apelidos[1], "e", objeto.apelidos[2])
-}
-euNovo(novoEu)
 
