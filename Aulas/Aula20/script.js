@@ -22,7 +22,7 @@ for(let i = 0; i < matriz.length; i++){
       soma += matriz[i][j] 
     }
 }
-console.log("A soma dos valores da matriz é:", soma)
+console.log("A soma dos valores da matriz é:", soma) 
 
 // Exercício matriz 4x4
 let matriz2 = [
@@ -37,7 +37,16 @@ let soma1 = 0
 for(let i = 0; i < matriz2.length; i++){
     for(let j = 0; j < matriz2[i].length; j++){
 
-        soma1 += matriz[i][j]
+        soma1 += matriz2[i][j]
     }
 }
 console.log("A soma dos números é:", soma1)
+
+// Atividade batalha naval 
+let batalhaNaval = [
+    [0, 0, 0, 0]
+    [0, 0]
+];
+
+let acerto = "návio"
+let erro = "água"
